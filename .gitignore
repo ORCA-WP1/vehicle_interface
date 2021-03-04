@@ -64,6 +64,7 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *~
+.vscode
 
 # LaTeX / Documentation Related #
 *.aux

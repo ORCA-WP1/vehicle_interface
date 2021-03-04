@@ -3,6 +3,8 @@ project(vehicle_interface)
 
 find_package(catkin REQUIRED COMPONENTS
  diagnostic_msgs
+ geometry_msgs
+ nav_msgs
  message_generation)
 
 add_message_files(DIRECTORY msg FILES
@@ -19,8 +21,10 @@ add_message_files(DIRECTORY msg FILES
   NodeStatus.msg
   PathRequest.msg
   PathStatus.msg
+  PilotPathRequest.msg
   PilotRequest.msg
   PilotStatus.msg
+  PilotWaypointRequest.msg
   String.msg
   ThrusterCommand.msg
   ThrusterFeedback.msg
@@ -31,6 +35,7 @@ add_message_files(DIRECTORY msg FILES
 )
 
 add_service_files(DIRECTORY srv FILES
+  AlarmStoppedTracking.srv
   BooleanService.srv
   DictionaryService.srv
   FloatService.srv
@@ -39,6 +44,6 @@ add_service_files(DIRECTORY srv FILES
   Vector6Service.srv
 )
 
-generate_messages(DEPENDENCIES diagnostic_msgs)
+generate_messages(DEPENDENCIES diagnostic_msgs nav_msgs geometry_msgs)
 
 catkin_package(CATKIN_DEPENDS diagnostic_msgs message_generation)
