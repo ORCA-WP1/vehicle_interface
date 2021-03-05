@@ -1,3 +1,5 @@
+string RELOCALIZE = relocalize
+string INSPECTION = inspection
 string path_type
 ---
 bool response
