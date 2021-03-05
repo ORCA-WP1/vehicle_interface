@@ -37,6 +37,7 @@ add_message_files(DIRECTORY msg FILES
 add_service_files(DIRECTORY srv FILES
   AlarmStoppedTracking.srv
   BooleanService.srv
+  ClearPathService.srv
   DictionaryService.srv
   FloatService.srv
   PathService.srv
