@@ -32,6 +32,7 @@ add_message_files(DIRECTORY msg FILES
   Vector6.msg
   Vector6Stamped.msg
   VehicleStatus.msg
+  WaypointStatus.msg
 )
 
 add_service_files(DIRECTORY srv FILES
