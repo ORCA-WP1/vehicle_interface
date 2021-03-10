@@ -42,6 +42,7 @@ add_service_files(DIRECTORY srv FILES
   FloatService.srv
   PathService.srv
   StringService.srv
+  RelocalisationRequest.srv
   Vector6Service.srv
 )
 

@@ -1,0 +1,6 @@
+int32 samples
+geometry_msgs/PoseArray key_frames
+nav_msgs/Odometry start
+---
+bool solved
+nav_msgs/Path found_path
