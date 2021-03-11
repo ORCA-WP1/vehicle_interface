@@ -33,6 +33,7 @@ add_message_files(DIRECTORY msg FILES
   Vector6Stamped.msg
   VehicleStatus.msg
   WaypointStatus.msg
+  MapInfo.msg
 )
 
 add_service_files(DIRECTORY srv FILES
@@ -45,6 +46,9 @@ add_service_files(DIRECTORY srv FILES
   StringService.srv
   RelocalisationRequest.srv
   Vector6Service.srv
+  MapMergingInfo.srv
+  PlannerRelocRequest.srv
+  PlannerRelocDone.srv
 )
 
 generate_messages(DEPENDENCIES diagnostic_msgs nav_msgs geometry_msgs)

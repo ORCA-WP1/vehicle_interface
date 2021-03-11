@@ -1,0 +1,2 @@
+int32 merged_map_id #id of the map that was merged, for now just the prsence of any number here means that it was a success
+---

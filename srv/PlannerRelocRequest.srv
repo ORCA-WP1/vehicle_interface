@@ -1,4 +1,2 @@
 geometry_msgs/Transform[] data # keyframe poses 
-float32[] keyframe_value
-int32[] keyframe_map_id
 ---

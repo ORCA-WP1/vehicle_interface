@@ -1,0 +1,3 @@
+int32 current_map_id # the map id which SLAM worked in before map merging
+int32 merged_map_id # the map id which SLAM just merged(re-localized) note: SLAM merge the old map into current map current_map_id->merged_map_id
+---
