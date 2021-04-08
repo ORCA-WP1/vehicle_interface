@@ -1,0 +1,4 @@
+nav_msgs/Odometry start
+nav_msgs/Path path
+---
+bool valid

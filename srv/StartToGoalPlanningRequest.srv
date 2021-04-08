@@ -1,7 +1,7 @@
-int32 samples
-int32 n_last
-geometry_msgs/PoseArray key_frames
+bool face_next
 nav_msgs/Odometry start
+geometry_msgs/Pose goal
 ---
 bool solved
+float32 distance
 nav_msgs/Path found_path

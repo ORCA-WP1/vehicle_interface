@@ -34,6 +34,10 @@ add_message_files(DIRECTORY msg FILES
   VehicleStatus.msg
   WaypointStatus.msg
   MapInfo.msg
+  AcousticDataMessage.msg
+	AcousticWaypointMessage.msg
+  AcousticLandmark.msg
+  AcousticGPSLandmark.msg
 )
 
 add_service_files(DIRECTORY srv FILES
@@ -42,6 +46,7 @@ add_service_files(DIRECTORY srv FILES
   ClearPathService.srv
   DictionaryService.srv
   FloatService.srv
+  GetNextBestView.srv
   PathService.srv
   StringService.srv
   RelocalisationRequest.srv
@@ -49,6 +54,8 @@ add_service_files(DIRECTORY srv FILES
   MapMergingInfo.srv
   PlannerRelocRequest.srv
   PlannerRelocDone.srv
+  StartToGoalPlanningRequest.srv
+  VerifyPath.srv
 )
 
 generate_messages(DEPENDENCIES diagnostic_msgs nav_msgs geometry_msgs)

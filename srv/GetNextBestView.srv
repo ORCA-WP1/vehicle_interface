@@ -1,0 +1,4 @@
+nav_msgs/Odometry start
+---
+bool solved
+geometry_msgs/PoseStamped next_best_view
