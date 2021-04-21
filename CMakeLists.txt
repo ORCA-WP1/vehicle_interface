@@ -50,6 +50,7 @@ add_service_files(DIRECTORY srv FILES
   PathService.srv
   StringService.srv
   RelocalisationRequest.srv
+  RelocalisationTransformRequest.srv
   Vector6Service.srv
   MapMergingInfo.srv
   PlannerRelocRequest.srv
