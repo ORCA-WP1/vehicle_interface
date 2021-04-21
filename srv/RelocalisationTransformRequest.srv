@@ -1,0 +1,7 @@
+int32 samples
+int32 n_last
+geometry_msgs/PoseArray key_frames
+nav_msgs/Odometry start
+---
+bool solved
+geometry_msgs/Transform[] data
