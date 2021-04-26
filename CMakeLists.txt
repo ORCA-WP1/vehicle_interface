@@ -57,6 +57,7 @@ add_service_files(DIRECTORY srv FILES
   PlannerRelocDone.srv
   StartToGoalPlanningRequest.srv
   VerifyPath.srv
+  PlannerBatteryRequest.srv
 )
 
 generate_messages(DEPENDENCIES diagnostic_msgs nav_msgs geometry_msgs)
